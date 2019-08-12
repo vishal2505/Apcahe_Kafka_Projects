@@ -45,7 +45,7 @@ kafka-topics --create --topic demo-2-distributed --partitions 3 --replication-fa
 
 # Now that the configuration is launched, we need to create the file demo-file.txt
 docker ps
-docker exec -it <containerId> bash
+docker exec -it 4940f0bcfe73 bash
 touch demo-file.txt
 echo "hi" >> demo-file.txt
 echo "hello" >> demo-file.txt
