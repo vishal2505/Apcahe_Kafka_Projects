@@ -1,6 +1,6 @@
-#How to write Custom Commector
+# How to write Custom Commector
 
-##Download Kafka Maven Archetype
+## Download Kafka Maven Archetype
 
 [https://github.com/jcustenborder/kafka-connect-archtype]
 
@@ -17,7 +17,7 @@ Source Code - [https://github.com/simplesteph/kafka-connect-github-source/tree/v
 
 Github Issues API - [https://developer.github.com/v3/issues/#list-issues-for-a-repository]
 
-##Config Definitions
+## Config Definitions
 
 ```
 public static ConfigDef conf() {
@@ -34,7 +34,7 @@ public static ConfigDef conf() {
 
 ```
 
-##Connector Class
+## Connector Class
 
 ```
  @Override
@@ -62,7 +62,7 @@ public static ConfigDef conf() {
 
 ```
 
-##Writing a Schema
+## Writing a Schema
 
 ```
     // Key Schema
@@ -74,14 +74,14 @@ public static ConfigDef conf() {
             .build();
 ```
 
-##Data Models for the objects
+## Data Models for the objects
 
-##Writing Github API http Client
+## Writing Github API http Client
 
 [https://github.com/simplesteph/kafka-connect-github-source/blob/master/src/main/java/com/simplesteph/kafka/GitHubAPIHttpClient.java]
 
-##Source Partition and source offsets
+## Source Partition and source offsets
 
-##Source Task
+## Source Task
 
 [https://github.com/simplesteph/kafka-connect-github-source/blob/master/src/main/java/com/simplesteph/kafka/GitHubSourceTask.java]
