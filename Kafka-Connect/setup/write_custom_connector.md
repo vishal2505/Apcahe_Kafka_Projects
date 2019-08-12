@@ -1,4 +1,4 @@
-# How to write Custom Commector
+# How to write Custom Connector
 
 ## Download Kafka Maven Archetype
 
